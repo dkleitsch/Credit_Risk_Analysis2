@@ -33,14 +33,14 @@ Using the Scikit-learn and imbalanced-learn machine learning Python libraries, a
 ![Random Forest](https://github.com/dkleitsch/Credit_Risk_Analysis2/blob/main/ML/Random%20forest.png)
 
 ### Easy Ensemble AdaBoost
-- Balanced Accurary Score: 0.93
+- Balanced Accuracy Score: 0.93
 - Precision Score (finding high-risk): 0.09
 - Recall Score (finding high-risk): 0.92
 ![AdaBoost](https://github.com/dkleitsch/Credit_Risk_Analysis2/blob/main/ML/ADA%20boost.png)
 
 ## Summary
 ### Summary of Results
-The balanced accuracy score for the first four models are relatively similar, with the Clustered Centroid undersampling being the weakest at 0.54.  The Balanced Random Forest model has a higher balanced accuracy score of 0.77 and the Easy Ensemble AdaBoost model has the highest accuracy score with 0.93.  The precision scores of the first four models are exactly the same with an extrememely low 0.01.  The Random Forest model is slightly higher with a score of 0.03.  Coming out on top with the precision score is the Easy Ensemble AdaBoost model with a score of 0.09.  The recall scores are in the .60s for all of the model except for SMOTEEN and Easy Ensemble, with scores of 0.75 and 0.92 respectively.
+The balanced accuracy score for the first four models is relatively similar, with the Clustered Centroid undersampling being the weakest at 0.54.  The Balanced Random Forest model has a higher balanced accuracy score of 0.77 and the Easy Ensemble AdaBoost model has the highest accuracy score with 0.93.  The precision scores of the first four models are exactly the same with an extremely low 0.01.  The Random Forest model is slightly higher with a score of 0.03.  Coming out on top with the precision score is the Easy Ensemble AdaBoost model with a score of 0.09.  The recall scores are in the .60s for all of the models except for SMOTEEN and Easy Ensemble, with scores of 0.75 and 0.92 respectively.
 
 ### Recommendation
-Based on these results, I would use the Easy Ensemble AdaBoost model to predict credit risk for potential borrowers.  It has the highest scores out all of the tested models, with a particularly high balanced accurary score.
+Based on these results, I would use the Easy Ensemble AdaBoost model to predict credit risk for potential borrowers.  It has the highest scores out of all of the tested models, with a particularly high balanced accuracy score.
